@@ -1,0 +1,61 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+input {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+h1 {
+  color: floralwhite;
+  text-align: center;
+  font-size: 75px;
+  font-weight: 100;
+}
+.card {
+  border-radius: 25px;
+}
+.card-body {
+  border-radius: 25px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  background-image: linear-gradient(to top, #0acffe 0%, #495aff 100%);
+}
+
+.weather-image-main i {
+  color: rgb(255, 196, 0);
+  font-size: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main-info {
+  color: floralwhite;
+  font-size: 35px;
+  font-weight: 100;
+  padding-top: 30px;
+}
+
+.forecast {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgba(78, 77, 77, 0.2);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.forecast-days {
+  font-size: 20px;
+  color: lightgray;
+}
+.forecast-images i {
+  font-size: 30px;
+}
+
+.forecast-temp {
+  color: lightgray;
+}
